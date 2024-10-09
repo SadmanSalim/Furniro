@@ -210,8 +210,266 @@ width: 212px;
 .right_side{
     width: 635px;
     height: 923px;
+    /* background: #000; */
     position: relative;
     top: -312px;
     left: 604px;
 }
-/*todo fdf */
+.name input{
+    border: 1px solid #9f9f9f;
+border-radius: 10px;
+width: 528px;
+height: 75px;
+top: 165px;
+position: relative;
+left: 54px;
+padding-left: 20px;
+}
+.name{
+    display: block;
+}
+.name label{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: #000;
+position: absolute;
+top: 119px;
+left: 53px;
+}
+.others label{
+    margin-top: 157px;
+    position: absolute;
+}
+.others{
+    margin-top: 82px;
+}
+.some_1 label{
+    top: 268px;
+    position: absolute;
+}
+.some_2 input{
+    border: 1px solid #9f9f9f;
+border-radius: 10px;
+width: 527px;
+height: 120px;
+}
+.some_2 label{
+    position: absolute;
+    top: 425px;
+}
+.submit_btn{
+
+position: absolute;
+top: 805px;
+left: 59px;
+}
+.submit_bton{
+    border-radius: 5px;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: #fff;
+border: none;
+outline: none;
+background: #b88e2f;
+width: 237px;
+height: 55px;
+cursor: pointer;
+transition: 0.5s;
+}
+.submit_bton:hover{
+    color: #b88e2f;
+    background: #fff;
+    border: 1px solid #b88e2f;
+}
+
+/** details */
+.details {
+    padding: 100px 0px;
+    width: 1440px;
+    height: 270px;
+    background: #faf3ea;
+    position: relative;
+    top: 10px;
+}
+
+.high_quality {
+    display: flex;
+    position: absolute;
+    left: 53px;
+    top: 100px;
+}
+
+.high_quality h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    color: #242424;
+}
+
+.high_quality p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.text,
+.text_1 {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.warranty_image {
+    margin-left: 55.33px;
+}
+
+/** footer */
+footer {
+    background: #fff;
+    width: 1440px;
+    height: 505px;
+    position: relative;
+    top: 30px;
+}
+
+.footer {
+    position: relative;
+}
+
+.left_items {
+    position: absolute;
+}
+.row_2{
+    height: 1144px;
+}
+.left_items h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    margin-top: 48px;
+    margin-left: 100px;
+}
+
+.left_items p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #9f9f9f;
+    width: 285px;
+    margin-top: 50px;
+    margin-left: 102.01px;
+}
+
+.left_middle_items {
+    position: absolute;
+    top: 48px;
+    left: 523.01px;
+    /* text-align: center; */
+}
+
+.left_middle_items p,
+.middle_items p,
+.right_side_items p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #9f9f9f;
+}
+
+.left_middle_items a,
+.middle_items a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+.left_middle_items a:hover,
+.middle_items a:hover {
+    color: #b88e2f;
+}
+
+.left_middle_items ul,
+.middle_items ul {
+    margin-top: 55px;
+}
+
+.left_middle_items li,
+.middle_items li {
+    margin-top: 46px;
+}
+
+.middle_items {
+    position: absolute;
+    top: 48px;
+    left: 735.01px;
+    /* text-align: center; */
+}
+
+.right_side_items {
+    position: absolute;
+    top: 50px;
+    left: 947.01px;
+}
+
+.sub_in {
+    margin-top: 53px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #9f9f9f;
+    width: 200px;
+    border: none;
+    outline: none;
+}
+
+.subscribe_btn {
+    margin-left: 38px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hr_3 {
+    display: flex;
+}
+
+.hr_1 {
+    width: 200px;
+}
+
+.hr_2 {
+    width: 75.01px;
+    margin-left: 41px;
+}
+
+.line {
+    position: absolute;
+    top: 408px;
+    left: 100px;
+}
+
+.copyright {
+    position: absolute;
+    top: 443px;
+    left: 102.01px;
+
+}
+
+.copyright p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
