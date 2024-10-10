@@ -32,11 +32,13 @@ a {
     margin: auto;
     position: relative;
 }
+
 .container_1 {
     width: 1440px;
     margin: auto;
     position: relative;
 }
+
 .container_2 {
     width: 1440px;
     margin: auto;
@@ -137,28 +139,31 @@ body {
 
 /* body part */
 
-.big_heading{
+.big_heading {
     position: absolute;
     text-align: center;
     top: 98px;
     left: 398px;
 }
-.big_heading h1{
+
+.big_heading h1 {
     font-family: var(--font-family);
-font-weight: 600;
-font-size: 36px;
-color: #000;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
 }
-.big_heading p{
+
+.big_heading p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-text-align: center;
-color: #9f9f9f;
-width: 644px;
-margin-top: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #9f9f9f;
+    width: 644px;
+    margin-top: 7px;
 }
-.left_side{
+
+.left_side {
     position: relative;
     top: 289px;
     left: 191px;
@@ -166,48 +171,54 @@ margin-top: 7px;
     height: 537px;
 }
 
-.images{
+.images {
     display: flex;
     position: relative;
 }
-.images img{
+
+.images img {
     position: absolute;
     left: 54px;
     top: 46.12px;
 }
-.second{
+
+.second {
     margin-top: 134.29px;
     position: absolute;
 }
-.third{
+
+.third {
     margin-top: 266.29px;
     position: absolute;
 }
 
-.texts{
+.texts {
     position: absolute;
     left: 106px;
     top: 58px;
 }
-.texts h2{
+
+.texts h2 {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 24px;
-color: #000;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
 }
-.texts p{
+
+.texts p {
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: #000;
-width: 212px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    width: 212px;
 }
-.forms_part{
+
+.forms_part {
     display: flex;
 }
 
 /* right side */
-.right_side{
+.right_side {
     width: 635px;
     height: 923px;
     /* background: #000; */
@@ -215,70 +226,88 @@ width: 212px;
     top: -312px;
     left: 604px;
 }
-.name input{
+
+.name input {
     border: 1px solid #9f9f9f;
-border-radius: 10px;
-width: 528px;
-height: 75px;
-top: 165px;
-position: relative;
-left: 54px;
-padding-left: 20px;
+    border-radius: 10px;
+    width: 528px;
+    height: 75px;
+    top: 165px;
+    position: relative;
+    left: 54px;
+    padding-left: 20px;
 }
-.name{
+
+.name {
     display: block;
 }
-.name label{
+
+.name label {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-color: #000;
-position: absolute;
-top: 119px;
-left: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    top: 119px;
+    left: 53px;
 }
-.others label{
+
+.others label {
     margin-top: 157px;
     position: absolute;
 }
-.others{
+
+.others {
     margin-top: 82px;
 }
-.some_1 label{
+
+.some_1 label {
     top: 268px;
     position: absolute;
 }
-.some_2 input{
-    border: 1px solid #9f9f9f;
-border-radius: 10px;
-width: 527px;
-height: 120px;
+.right_side input{
+    font-size: 16px;
 }
-.some_2 label{
+
+.some_2 textarea {
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    width: 527px;
+    height: 120px;
+    margin-top: 160px;
+    position: absolute;
+    right: 55px;
+    padding: 20px 0 0 20px;
+    font-size: 16px;
+}
+
+.some_2 label {
     position: absolute;
     top: 425px;
 }
-.submit_btn{
 
-position: absolute;
-top: 805px;
-left: 59px;
+.submit_btn {
+    position: absolute;
+    top: 805px;
+    left: 59px;
 }
-.submit_bton{
+
+.submit_bton {
     border-radius: 5px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-color: #fff;
-border: none;
-outline: none;
-background: #b88e2f;
-width: 237px;
-height: 55px;
-cursor: pointer;
-transition: 0.5s;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #b88e2f;
+    width: 237px;
+    height: 55px;
+    cursor: pointer;
+    transition: 0.5s;
 }
-.submit_bton:hover{
+
+.submit_bton:hover {
     color: #b88e2f;
     background: #fff;
     border: 1px solid #b88e2f;
@@ -344,9 +373,11 @@ footer {
 .left_items {
     position: absolute;
 }
-.row_2{
+
+.row_2 {
     height: 1144px;
 }
+
 .left_items h2 {
     font-family: var(--font-family);
     font-weight: 700;

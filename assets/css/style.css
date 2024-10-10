@@ -389,11 +389,11 @@ body {
     top: 0;
     border-radius: 10px;
     visibility: hidden;
-    transition: 0.5s cubic-bezier(.17, .67, .83, .67);
 }
 
 .products:hover::after {
     visibility: visible;
+    transition: 0.1s cubic-bezier(.17, .67, .83, .67);
 }
 
 .products:hover .later_show_button {
@@ -406,7 +406,6 @@ body {
     top: 175px;
     left: 41px;
     visibility: hidden;
-    transition: 0.1s cubic-bezier(.17, .67, .83, .67);
 }
 
 .cart_btn {
@@ -421,16 +420,17 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #b88e2f;
-    transition: 0.5s;
 }
 
 .cart_btn:hover {
     color: #fff;
     background: #b88e2f;
+    transition: 0.1s;
 }
 
 .products:hover .other_items {
     visibility: visible;
+    transition: 0.1s cubic-bezier(.17, .67, .83, .67);
 }
 
 .other_items,
@@ -446,7 +446,6 @@ body {
     top: 247px;
     z-index: 100;
     visibility: hidden;
-    transition: 0.5s cubic-bezier(.17, .67, .83, .67);
 }
 
 .other_items p {
@@ -466,7 +465,7 @@ body {
 
 .show_more {
     position: absolute;
-    top: 2646px;
+    top: 2700px;
     left: 598px;
 }
 
