@@ -89,6 +89,12 @@ body {
 
 .nav_icons a {
     margin-left: 45px;
+    color: #000;
+    font-size: 28px;
+    transition: 0.5s;
+}
+.nav_icons a:hover{
+    color: #b88e2f;
 }
 
 /* nav bar end */
@@ -159,6 +165,12 @@ body {
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
+}
+.btn_1:hover{
+    background: #fff;
+    color: #b88e2f;
+    border: 1px solid  #b88e2f;
 }
 
 /* 1st View End */
@@ -233,14 +245,18 @@ body {
     text-align: center;
     color: #3a3a3a;
     position: absolute;
-    top: 1610px;
+    top: 10px;
     left: 588px;
+}
+.our_products{
+    position: absolute;
+    top: 1610px;
 }
 
 .all_product {
     position: relative;
     left: 102px;
-    top: 1690px;
+    top: 95px;
     display: flex;
     flex-wrap: wrap;
 }
