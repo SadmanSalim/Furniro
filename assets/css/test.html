@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+
+    <div id="modal-container">
+        <div class="modal-background">
+          <div class="modal">
+            <h2>I'm a Modal</h2>
+            <p>Hear me roar.</p>
+            <svg
+              class="modal-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="none"
+            >
+              <rect
+                x="0"
+                y="0"
+                fill="none"
+                width="226"
+                height="162"
+                rx="3"
+                ry="3"
+              ></rect>
+            </svg>
+          </div>
+        </div>
+      </div>
+    <div>
+        <button type="button" onclick="handleClick('side')">Side</button>
+      </div>
+
+
+
+      <script type="text/javascript">
+        const modal = document.querySelector("#modal-container");
+  
+        const handleClick = (buttonId) => {
+          modal.classList = [];
+          modal.classList.add(buttonId);
+          document.body.classList.add("modal-active");
+        };
+  
+        modal.addEventListener("click", () => {
+          modal.classList.add("out");
+          document.body.classList.remove("modal-active");
+        });
+      </script>
+</body>
+</html>
