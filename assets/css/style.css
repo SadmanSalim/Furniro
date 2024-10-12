@@ -1498,6 +1498,20 @@ nav{
     }
   }
 
+  .modal p{
+    font-size: 18px;
+    color: #000;
+    z-index: 100;
+  }
+  .modal a{
+    color: #b88e2f;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  .modal a:hover{
+    text-decoration: underline;
+  }
 
 
   .cart_icon{

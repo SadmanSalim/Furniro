@@ -19,58 +19,47 @@
 <body>
     <!-- nav-bar start -->
     <nav>
-    <section id="nav_bar">
-        <div class="container">
-            <div class="row">
-                <div class="nav_logo">
-                    <a href="index.html"><img src="./assets/img/main_logo.png" alt="logo"></a>
-                </div>
-                <div class="nav_menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="nav_icons">
-                    <a href="#"><iconify-icon icon="mdi:user-alert-outline"></iconify-icon></a>
-                    <a href="#"><iconify-icon icon="mynaui:search"></iconify-icon></a>
-                    <a href="#"><iconify-icon icon="ri:heart-line"></iconify-icon></a>
-                    <a href="#">
-                        <div id="modal-container">
-                            <div class="modal-background">
-                              <div class="modal">
-                                <h2>Shoping Cart</h2>
-                                <p>Cart is empty<a href="shop.html">Go To Shop Page</a></p>
-                                <svg
-                                  class="modal-svg"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="100%"
-                                  height="100%"
-                                  preserveAspectRatio="none"
-                                >
-                                  <rect
-                                    x="0"
-                                    y="0"
-                                    fill="none"
-                                    width="226"
-                                    height="162"
-                                    rx="3"
-                                    ry="3"
-                                  ></rect>
-                                </svg>
-                              </div>
+        <section id="nav_bar">
+            <div class="container">
+                <div class="row">
+                    <div class="nav_logo">
+                        <a href="index.html"><img src="./assets/img/main_logo.png" alt="logo"></a>
+                    </div>
+                    <div class="nav_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav_icons">
+                        <a href="#"><iconify-icon icon="mdi:user-alert-outline"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="mynaui:search"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="ri:heart-line"></iconify-icon></a>
+                        <a href="#">
+                            <div id="modal-container">
+                                <div class="modal-background">
+                                    <div class="modal">
+                                        <h2>Shoping Cart</h2>
+                                        <p>Cart is empty</p><a href="shop.html">Go To Shop Page</a>
+                                        <svg class="modal-svg" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                            height="100%" preserveAspectRatio="none">
+                                            <rect x="0" y="0" fill="none" width="226" height="162" rx="3" ry="3"></rect>
+                                        </svg>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                        <div>
-                            <a href="#" class="cart_icon"><iconify-icon icon="flowbite:cart-outline" type="button" onclick="handleClick('side')"></iconify-icon></a>
-                          </div></a>
+                            <div>
+                                <a href="#" class="cart_icon"><iconify-icon icon="flowbite:cart-outline" type="button"
+                                        onclick="handleClick('side')"></iconify-icon></a>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</nav>
+        </section>
+    </nav>
     <!-- nav bar end -->
 
     <!-- 1st view start -->
@@ -576,18 +565,18 @@
 
     <script type="text/javascript">
         const modal = document.querySelector("#modal-container");
-  
+
         const handleClick = (buttonId) => {
-          modal.classList = [];
-          modal.classList.add(buttonId);
-          document.body.classList.add("modal-active");
+            modal.classList = [];
+            modal.classList.add(buttonId);
+            document.body.classList.add("modal-active");
         };
-  
+
         modal.addEventListener("click", () => {
-          modal.classList.add("out");
-          document.body.classList.remove("modal-active");
+            modal.classList.add("out");
+            document.body.classList.remove("modal-active");
         });
-      </script>
+    </script>
 
 </body>
 
