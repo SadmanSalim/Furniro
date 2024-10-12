@@ -9,7 +9,7 @@
     --font-family: "poppins", sans-serif;
     --second-family: "Montserrat", sans-serif;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     width: 6px;
     background: #ddd;
   }
@@ -17,7 +17,7 @@
     background: #b88e2f;
     border-radius: 10px;
   }
-  
+   */
 
 ul,
 li {
