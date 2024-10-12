@@ -5,6 +5,15 @@
     font-family: var(--font-family, --second-family);
 }
 
+::-webkit-scrollbar{
+  width: 6px;
+  background: #ddd;
+}
+::-webkit-scrollbar-thumb{
+  background: #b88e2f;
+  border-radius: 10px;
+}
+
 :root {
     --font-family: "poppins", sans-serif;
     --second-family: "Montserrat", sans-serif;
